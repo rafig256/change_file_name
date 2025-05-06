@@ -2,6 +2,11 @@
 
 ## توضیحات فارسی / Persian Description
 
+
+این یک تجربه ی شخصی است. من قصد داشتم یک کتاب 286 صفحه ای رو اسکن کنم. قرار بود اسکن از صفحه ی 5 تا 286 باشد. اما اسکنر من تک رو بود و می توانست در هر مرتبه یک روی برگه را اسکن کند. من یک مرتبه صفحات زوج را از انتهای کتاب اسکن کردم. سپس یک مرتبه هم از ابتدای کتاب تا انتها فقط صفحات فرد رو اسکن کردم. بعد از اسکن متوجه شدم که دو صفحه ی 228 و 230 جا افتاده اند. 
+
+مرتب کردن این صفحات به صورت دستی کار طاقت فرسایی بود. پس دست به کار شدم تا یک کد ساده ی پایتون مشکل را حل کند. این رو به اشتراک می گذارم تا اگر مشکل مشابهی داشتید با تغییر فرمولها (در حال حاضر سه قسمت است) برای شما هم قابلیت استفاده داشته باشد
+
 این یک اسکریپت ساده پایتون است که برای مرتب‌سازی و تغییر نام فایل‌های اسکن شده صفحات کتاب (با فرمت JPEG) طراحی شده است. این اسکریپت قادر است سناریوهای مختلف اسکن را مدیریت کند، از جمله:
 
 * اسکن از پشت کتاب (صفحات به ترتیب نزولی).
@@ -23,6 +28,10 @@
 6.  پس از اتمام کار اسکریپت، فایل‌های مرتب شده و تغییر نام یافته در پوشه‌ای جدید به نام `result` در داخل پوشه اصلی قرار خواهند گرفت.
 
 ## English Description
+
+This is a personal experience. I intended to scan a 286-page book, with the scan supposed to cover pages 5 to 286. However, my scanner was single-sided and could only scan one side of a sheet at a time. I scanned the even-numbered pages from the end of the book in one pass. Then, I scanned only the odd-numbered pages from the beginning to the end in another pass. After scanning, I realized that two pages, 228 and 230, were missing.
+
+Manually sorting these pages was a tedious task. So, I set out to write a simple Python code to solve the problem. I am sharing this so that if you have a similar issue, you can also use it by modifying the formulas (currently in three sections) to suit your needs.
 
 This is a simple Python script designed to sort and rename scanned book page files (in JPEG format). The script can handle various scanning scenarios, including:
 
